@@ -1,0 +1,69 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: #1e1e1e;
+  padding: 10px 18px 18px 18px;
+  border-radius: 4px;
+}
+.container form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  color: #fff;
+}
+.container form input[type='text'] {
+  background-color: #4f4c4c;
+  border: none;
+  border-radius: 0.2rem;
+  padding: 0.4rem;
+}
+.container form input[type='text']:focus {
+  border: 1px solid #fdf0f5;
+  outline: 1px solid #fdf0f5;
+}
+.container form select:focus {
+  border: 1px solid #fdf0f5;
+  outline: 1px solid #fdf0f5;
+}
+.container form input[type='submit'] {
+  background-color: #ff0072;
+  border: none;
+  border-radius: 0.2rem;
+  padding: 0.4rem;
+  color: #fff;
+  width: 100%;
+  cursor: pointer;
+}
+
+.container form label {
+  color: #747171;
+  font-size: 8px;
+  text-align: left;
+  display: inline-block;
+  width: 100%;
+  margin-block: 4px;
+}
+
+.container form select {
+  background-color: #4f4c4c;
+  border: none;
+  border-radius: 0.2rem;
+  padding: 0.4rem;
+  color: #fff;
+  width: 100%;
+  margin-bottom: 0.6rem;
+  cursor: pointer;
+}
+
+h2 {
+  color: #fff;
+}

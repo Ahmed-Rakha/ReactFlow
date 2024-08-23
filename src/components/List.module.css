@@ -1,0 +1,39 @@
+.container {
+  background: #1e1e1e;
+  padding: 10px 18px 18px 18px;
+  border-radius: 4px;
+  color: #fff;
+}
+.container li {
+  margin-bottom: 0.7rem;
+}
+.container h3 {
+  text-align: center;
+  /* display: flex;
+  align-items: center; */
+}
+.container h3 input,
+.container ul li input {
+  display: block;
+  border: none;
+  color: #fff;
+  background-color: transparent;
+}
+.container h3 button,
+.container ul li button {
+  border: 1pxs solid #fff;
+  background: transparent;
+  color: #fff;
+  font-size: 0.5rem;
+  font-weight: 500;
+  margin-left: 0.5rem;
+  padding: 2px;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 40px;
+}
+.container h3 button:hover,
+.container ul li button:hover {
+  background: #ff0072;
+  color: #1e1e1e;
+}
